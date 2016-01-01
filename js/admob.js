@@ -2,8 +2,6 @@
     function onLoad() {
         if(( /(ipad|iphone|ipod|android|windows phone)/i.test(navigator.userAgent) )) {
             document.addEventListener('deviceready', initApp, false);
-            AdMob.showInterstitial();
-            alert("test")
         } else {
             initApp();
         }
