@@ -7,8 +7,6 @@
         //
         function onDeviceReady() {
             console.log("deviceready");
-            prepareInterstitial();
-            AdMob.showInterstitial();
         }
 
         // Audio player
