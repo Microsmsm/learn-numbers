@@ -44,7 +44,7 @@
             // x: integer,    // valid when set position to 0 / POS_XY
             // y: integer,    // valid when set position to 0 / POS_XY
             // isTesting: false, // set to true, to receiving test ad for testing purpose
-            // autoShow: true // auto show interstitial ad when loaded, set to false if prepare/show
+            autoShow: true // auto show interstitial ad when loaded, set to false if prepare/show
         };
         AdMob.setOptions( defaultOptions );
         registerAdEvents();
